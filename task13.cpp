@@ -7,20 +7,23 @@ int sum;
 
 cout << "Enter digit: ";
 cin >> digit;
-sum = digit+sum;
-cout << "Enter digit: ";
-cin >> digit;
-sum = digit+sum;
-cout << "Enter digit: ";
-cin >> digit;
-sum = digit+sum;
-cout << "Enter digit: ";
-cin >> digit;
-sum = digit+sum;
-cout << "Enter digit: ";
-cin >> digit;
-sum = digit+sum;
+sum += digit;
 
+cout << "Enter digit: ";
+cin >> digit;
+sum += digit;
+
+cout << "Enter digit: ";
+cin >> digit;
+sum += digit;
+
+cout << "Enter digit: ";
+cin >> digit;
+sum += digit;
+
+cout << "Enter digit: ";
+cin >> digit;
+sum += digit;
 
 cout << "The sum is: " << sum;
 
